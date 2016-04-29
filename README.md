@@ -1,2 +1,2 @@
 # LBXchange
-Put your code directly into the LBX folder not the master branch.
+Put your code directly into the LBX Project folder not the master branch.
