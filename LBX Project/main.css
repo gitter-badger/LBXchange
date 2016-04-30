@@ -1,0 +1,26 @@
+/* ----------
+general styles
+------------- */
+
+* {
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+/* ----------
+nav
+------------- */
+
+#index_header {
+	margin-bottom: 60px;
+}
+
+/* ----------
+buttons
+------------- */
+
+.login_button, .signup_button {
+	position: relative;
+	bottom: 240px;
+	left: 1100px;
+}
