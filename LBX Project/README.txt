@@ -1,1 +1,1 @@
-Put your code directly into this folder not the master branch.
+Put your code directly into this folder.
