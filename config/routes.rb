@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  
+  
+  # Define Root URL
+  # "#" means that it is a method "/" means that it's a URL in pages
+  root 'pages#index'
+  
+  # Define Routes for pages
+  # Don't want index to be in pages, put it as roots
+  get 'pages/home'
+
+  get 'pages/profile'
+
+  get 'pages/explore'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
