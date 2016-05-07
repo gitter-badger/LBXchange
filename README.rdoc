@@ -1,28 +1,27 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Git-Hub commands
 
-Things you may want to cover:
+git status : gets the status of all changes.
+git add –A : add all the changes
+git commit –m : commit to the master branch
+git push origin master : push the commit to master branch
 
-* Ruby version
+File Navigation
 
-* System dependencies
+app/controllers/concerns : stores all the controller for the pages as backend ruby files.
 
-* Configuration
+app/views : where /layout and /pages html.erb files are stored
 
-* Database creation
+config/locales/routes.rb : used to set paths of different files
 
-* Database initialization
+vendor/gemfiles : use to import assets and gems. Then use ($ bundle install)
+Examples…
+# for twitter UI components inc. navbar
+gem 'bootstrap-sass', '~> 3.3.6'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
 
-* How to run the test suite
+app/assets : holds images, javascript, and stylesheets(css/scss) files
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
