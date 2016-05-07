@@ -1,13 +1,16 @@
 == README
 
-*Git-Hub commands
+* Git-Hub commands
 
 git status : gets the status of all changes.
-git add –A : add all the changes
-git commit –m : commit to the master branch
-git push origin master : push the commit to master branch
 
-*File Navigation
+git add –A : add all the changes.
+
+git commit –m : commit to the master branch.
+
+git push origin master : push the commit to master branch.
+
+* File Navigation
 
 app/controllers/concerns : stores all the controller for the pages as backend ruby files.
 
