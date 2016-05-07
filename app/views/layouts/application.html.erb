@@ -1,3 +1,5 @@
+<!-- stuff in here runs on all pages of the website-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,9 +8,15 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
-<%= yield %>
+<!-- This is how to add a partial to an html page-->
+<%= render '/layouts/nav' %>
+
+<div class = "container">
+    <%= yield %>
+</div>
 
 </body>
 </html>

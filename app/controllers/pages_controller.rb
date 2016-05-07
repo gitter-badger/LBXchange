@@ -9,12 +9,12 @@ class PagesController < ApplicationController
   def home
   end
 
-  # back-end code for pages /profile
-  def profile
+  # back-end code for pages /buy
+  def buy
   end
   
-  # back-end code for pages /explore
-  def explore
+  # back-end code for pages /sell
+  def sell
   end
   
 end
