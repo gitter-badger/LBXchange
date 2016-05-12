@@ -15,3 +15,21 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+/* ----------
+overriding bootstrap classes
+------------ */
+
+button.sign_up {
+	margin: 0 5px;
+}
+
+button.login {
+	margin: 0 50px 0 5px;
+}
+
+.jumbotron {
+	margin-bottom: 0px; 
+	height: 190px;
+}
+
