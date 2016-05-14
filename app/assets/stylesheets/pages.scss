@@ -1,3 +1,20 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* ----------
+overriding bootstrap classes
+------------ */
+
+button.sign_up {
+	margin: 0 5px;
+}
+
+button.login {
+	margin: 0 50px 0 5px;
+}
+
+.jumbotron {
+	margin-bottom: 0px; 
+	height: 190px;
+}

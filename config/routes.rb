@@ -15,7 +15,7 @@ Rails.application.routes.draw do
   get '/home' => 'pages#home'
 
   get '/buy' => 'pages#buy'
-
+  
   get '/sell' => 'pages#sell'
 
   # The priority is based upon order of creation: first created -> highest priority.

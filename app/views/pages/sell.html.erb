@@ -1,2 +1,41 @@
-<h1>Pages#sell</h1>
-<p>Find me in app/views/pages/sell.html.erb</p>
+<h1>Selling an item</h1>
+<h2 style="font-style: italic; color: gray; font-size: 20px;">Please complete the following info (submit button is bellow)</h2>
+
+<form style="margin-bottom: 100px;">
+  <div class="form-group">
+    <label for="item_title">Title of Item</label>
+    <input type="email" class="form-control input-lg" id="item_title" placeholder="Enter the name here (Example: CECS 274 Big Java Late Object by Cay S. Horstmann)">
+  </div>
+
+   <!--<form class="form-inline"> -->
+  <div class="form-group">
+    <label for="minimum_price">Minimum Price:</label>
+    <div class="input-group">
+      <div class="input-group-addon">$</div>
+      <input type="text" class="form-control input-lg" id="minimum_price" placeholder="Amount in DOLLARS (Example: 20)">
+      <div class="input-group-addon">.00</div>
+    </div>
+  </div>
+<!-- </form>  -->
+
+  <div class="form-group">
+    <label for="exampleInputFile">Upload picture</label>
+    <input type="file" class="input-lg" id="exampleInputFile">
+  </div>
+
+  <div class="form-group">
+    <label for="comment">Description:</label>
+    <textarea class="form-control" rows="5" id="comment" placeholder="Enter description here (Example: Good condition! A little highlighting and notes in the margins."></textarea>
+  </div>
+
+
+  <button type="submit" class="btn btn-lg btn-success">Submit</button>
+</form><!-- end of form -->
+
+<!--
+Selling an item
+	Title:
+	Minimum Price:
+	Photo: 
+	Description: 
+-->
