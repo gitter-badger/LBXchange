@@ -28,7 +28,7 @@ The web model and structure will look similar to that of [Twitter](https://twitt
 - Ruby/Rails
 - Git 
 
-See the project on [Trello](httpsgi://trello.com/b/oHUHYQME/lbxchange-web)
+See the project on [Trello](https://trello.com/b/oHUHYQME/lbx)
 
 ## Motivation
 
@@ -44,26 +44,26 @@ The local repository consists of three "trees".
 The first one is your *Working Directory* which holds the actual files. 
 The second one is the *Index* which acts as a staging area and finally the *HEAD* which points to the last commit you've made.
 
-*Getting the latest version of the code:*
+**Getting the latest version of the code:**
 
 Case 1: Don’t care about local changes
 
-- git reset --hard HEAD
-- git clean -f
-- git pull
+- *git reset --hard HEAD*
+- *git clean -f*
+- *git pull*
 
 Case 2: Care about local changes
 
-- git fetch origin
-- git status
-- git pull
+- *git fetch origin*
+- *git status*
+- *git pull*
 
-*Commiting your changes:*
+**Commiting your changes:**
 
-- git status
-- git add –A
-- git commit –m "commit message"
-- git push origin master
+- *git status*
+- *git add –A*
+- *git commit –m "commit message"*
+- *git push origin master*
 
 **References:**
 
