@@ -14,12 +14,12 @@
 
 ## Synopsis
 
-LBXchange is a web project built to meet the material needs of students at CSULB (http://www.csulb.edu) through mutual item exchanges. The development is currently open to all who have been invited or are familiar with web programming and would like to participate. 
+LBXchange is a web project built to meet the material needs of students at [Cal State Long Beach](http://www.csulb.edu) through mutual item exchanges. The development is currently open to all who have been invited or are familiar with web programming and would like to participate. 
 
 ## Design
 
 We are using [Ruby on Rails](http://rubyonrails.org/) with [Bootstrap](http://getbootstrap.com/) intergration to build the website. 
-The web model and structure will look similar to that of [Twitter](https://twitter.com/?lang=en) in addition of our own flavor and school theme.
+The web model and structure will look similar to that of [Twitter](https://twitter.com/?lang=en) in addition of our own flavors and school theme.
 
 **Necessary Languages:**
 - HTML
